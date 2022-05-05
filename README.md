@@ -1,2 +1,2 @@
-# AngryBirdsStage3
-Stage 3 Angry Birds: Introducing Constraint
+# C35_SynchronousBallMoment_StudentActivity
+Student Activity

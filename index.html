@@ -1,21 +1,35 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <script src="p5.min.js"></script>
-    <script src="p5.dom.min.js"></script>
-    <script src="p5.sound.min.js"></script>
-    <script src="matter.js"></script>
-    <script src="BaseClass.js"></script>
-    <script src="Ground.js"></script>
-    <script src="Box.js"></script>
-    <script src="Pig.js"></script>
-    <script src="Log.js"></script>
-    <script src="Bird.js"></script>
-    <script src="Slingshot.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="utf-8">
-</head>
-<body>
-  <script src="sketch.js"></script>
-</body>
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      //add here
+      // Initialize Firebase
+      const firebaseConfig = {
+  apiKey: "AIzaSyDyqYOnUsPMdmth2HQ3cOLvq1-VoBCO6aA",
+  authDomain: "wireleib-e42d3.firebaseapp.com",
+  databaseURL: "https://wireleib-e42d3-default-rtdb.firebaseio.com",
+  projectId: "wireleib-e42d3",
+  storageBucket: "wireleib-e42d3.appspot.com",
+  messagingSenderId: "1049671850682",
+  appId: "1:1049671850682:web:fcccbf9461465c113f4083"
+};
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
 </html>
